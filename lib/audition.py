@@ -12,6 +12,7 @@ class Audition:
 
     def call_back(self):
         self.hired = True
-
+   
+   #using the __repr__ method to return more information. when commented out only returns objects 
     def __repr__(self):
         return f"Audition(actors= '{self.actor}', location='{self.location}', role='{self.role.character_name}', hired={self.hired})"
